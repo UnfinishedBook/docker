@@ -1,4 +1,4 @@
-FROM mariadb:10.2
+FROM mysql:5.7
 
 COPY localtime /etc/localtime
 
