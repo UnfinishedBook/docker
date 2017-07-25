@@ -1,4 +1,4 @@
-FROM mariadb:10.2
+FROM zabbix/zabbix-agent:alpine-3.2-latest
 
 COPY localtime /etc/localtime
 
